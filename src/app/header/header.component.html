@@ -1,0 +1,26 @@
+<div class="layout_bar">
+  <div class="container_menu_dashboard">
+    <a href="#">
+      <img
+        src="https://www.primefaces.org/sakai-ng/assets/layout/images/logo-dark.svg"
+        alt="imgs"
+      />
+      <span>SAKAI</span>
+    </a>
+    <button class="dashboar_menu" (click)="onToggle()">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </button>
+  </div>
+
+  <div class="gadgets">
+    <button class="users_menu">
+      <fa-icon [icon]="faPerson"></fa-icon>
+    </button>
+    <button class="calendar_menu">
+      <fa-icon [icon]="faCalendar"></fa-icon>
+    </button>
+    <button class="gear_menu">
+      <fa-icon [icon]="faGear"></fa-icon>
+    </button>
+  </div>
+</div>

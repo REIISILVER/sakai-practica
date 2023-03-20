@@ -1,0 +1,10 @@
+.layout {
+  background-color: #eff3f8;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+  padding: 30px;
+}
